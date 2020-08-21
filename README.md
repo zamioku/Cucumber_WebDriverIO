@@ -3,6 +3,9 @@
 Hi,
 Please read if you have questions about the way I wrote these scripts.
 
+# How to run:
+Just open a terminal command line and type "npm test" or "npm run test:dev" to start the automation scripts.
+
 
 # About Babel:
 
