@@ -5,7 +5,7 @@ Please read if you have questions about the way I wrote these scripts.
 
 ## How to run:
 Just open a terminal command line inside of the main folder (where node_modules are) and type `npm test` or `npm run test:dev` to start the automation scripts.
-> NOTE: you should perform `npm install` to generate your node_modules first!
+> **NOTE:** you should perform `npm install` to generate your node_modules first!
 
 
 ## About Babel:
@@ -31,5 +31,5 @@ Based on how we want to code it, our Step Definition can either call our Page Ob
 I installed the "dotenv" module in order to load passwords and Environment from an external .env file;
 
 
-> Kind regards,
+> Kind regards,  
 > Sorin Dragomir
