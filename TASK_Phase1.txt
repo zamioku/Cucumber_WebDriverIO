@@ -1,0 +1,10 @@
+Question 1: Are you going to ask any additional, more precise questions during the refinement / requirement
+            definition stage?
+
+Answer: Yes, I would ask if the login feature should handle empty fields for username / password, and if 
+        there are any specific errors displayed for each field when it is empty or has an incorrect pattern.
+
+Question 2: If you have received the answers to all your questions from the Product Owner / Manager /
+            Client, create test cases to the above-mentioned user story using Gherkin.
+
+Answer: Please read ./features/Authentication/Login.feature
