@@ -3,16 +3,16 @@
 Hi,
 Please read if you have questions about the way I wrote these scripts.
 
-# How to run:
+## How to run:
 Just open a terminal command line and type "npm test" or "npm run test:dev" to start the automation scripts.
 
 
-# About Babel:
+## About Babel:
 
 I had to install Babel to compile my scripts into ES6 in order to use module.exports
 
 
-# About the Support files:
+## About the Support files:
 
 There will come a time where you may want some logic to be handled outside of the Page Object. 
 
@@ -25,10 +25,10 @@ Putting most that complex logic in my Support file helps me to maintain a modula
 Based on how we want to code it, our Step Definition can either call our Page Object or Support File.
 
 
-# About .env file:
+## About .env file:
 
 I installed the "dotenv" module in order to load passwords and Environment from an external .env file;
 
 
-Kind regards,
-Sorin Dragomir
+> Kind regards,
+> Sorin Dragomir
