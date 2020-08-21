@@ -1,4 +1,4 @@
-# Pearson_SQE_test
+# Pearson SQE test
 
 Hi,
 Please read if you have questions about the way I wrote these scripts.
