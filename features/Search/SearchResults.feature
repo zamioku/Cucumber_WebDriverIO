@@ -1,4 +1,4 @@
-@notdone
+@search
 Feature: Search results
 
     As a user, I want to be able to search for articles

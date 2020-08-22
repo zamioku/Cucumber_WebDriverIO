@@ -4,7 +4,7 @@ Hi,
 Please read if you have questions about the way I wrote these scripts.
 
 ## How to run:
-Just open a terminal command line inside of the main folder (where node_modules are) and type `npm test` or `npm run test:dev` to start the automation scripts.
+Just open a terminal command line inside of the main folder (where node_modules are) and type `npm test` or `npm run test:regression` to start the automation scripts.
 > **NOTE:** you should perform `npm install` to generate your node_modules first!
 
 
