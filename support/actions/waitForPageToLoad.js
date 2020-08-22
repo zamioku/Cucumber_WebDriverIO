@@ -1,4 +1,5 @@
-export default () => {    
+export default () => {
+    // Wait for document to be fully loaded. 
     browser.waitUntil(
         () => {
             const state = browser.execute(function () {

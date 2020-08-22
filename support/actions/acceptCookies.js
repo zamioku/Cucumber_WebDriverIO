@@ -1,8 +1,8 @@
-import loginPage from "../../pages/Login";
+// import loginPage from "../../pages/Login";
 
-export default () => {
-    let cookiesMessageDisplayed = loginPage.closeCookiesButton.isExisting();
+export default page => {
+    let cookiesMessageDisplayed = page.closeCookiesButton.isExisting();
     if (cookiesMessageDisplayed) {
-        loginPage.closeCookiesButton.click();
+        page.closeCookiesButton.click();
     }
 }
