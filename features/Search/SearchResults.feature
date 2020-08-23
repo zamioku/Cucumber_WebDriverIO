@@ -1,4 +1,4 @@
-@search
+@regression @search
 Feature: Search results
 
     As a user, I want to be able to search for articles
@@ -7,6 +7,7 @@ Feature: Search results
     Background:
         Given the browser is at the "Home" page
 
+    @dev
     Scenario: The Search input field should be displayed
         When the page is loaded
         Then the "search" input field should be visible
@@ -30,16 +31,16 @@ Feature: Search results
             | ac      |
             | ba      |
 
-    @a
     Scenario Outline: The third searched element should redirect to the proper article
         When the user searches for "<keyword>"
         And the user clicks on result number "3" in the list
-        Then the article "<title>" should be displayed
+        Then an article containing "<keyword>" should be displayed
 
         Examples:
-            | keyword | title |
-            | course  | c     |
-            | store   | s     |
+            | keyword |
+            | help    |
+            | report  |
+            | .pdf    |
 
 
 

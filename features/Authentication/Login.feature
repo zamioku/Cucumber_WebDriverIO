@@ -16,7 +16,7 @@ Feature: Login
             | username     |
             | sorindr_test |
 
-        @stage
+        @stage @doNotUse
         Examples:
             | username           |
             | sorindr_stage_test |
@@ -33,12 +33,12 @@ Feature: Login
             | JoeTester123  | Sorry, the credentials you have entered do not match. Please try again. |
             | random_user_X | Sorry, the credentials you have entered do not match. Please try again. |
 
-    @todo
     Scenario Outline: Attempting to login with empty username or special characters
         When the user tries to enter "invalid" credentials, "<username>" to login
         Then the user should not be signed in
         And an error message under the "username" input field should say "<error>"
 
+        @dev
         Examples:
             | username     | error                                                                                          |
             |              | Please enter a username                                                                        |
